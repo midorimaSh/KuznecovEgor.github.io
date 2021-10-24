@@ -1,0 +1,12 @@
+@startuml
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+class "Пекарь" as P {
+ Духовая печь
+Испечь (Ингредиенты, К приходу гостей) -> Пирог
+}
+hide circle
+@enduml
